@@ -6,11 +6,11 @@
 			CanDisplayChildGraph="true">
 		<Description>Composite Fileset</Description>
 		<Generation Name="SYNTHESIS"
-				State="STALE"/>
+				State="RESET"/>
 		<Generation Name="IMPLEMENTATION"
-				State="STALE"/>
+				State="RESET"/>
 		<Generation Name="SIMULATION"
-				State="STALE"/>
+				State="RESET"/>
 		<FileCollection Name="SOURCES"
 				Type="SOURCES">
 			<File Name="ip\design_1_processing_system7_0_0\design_1_processing_system7_0_0.xci"

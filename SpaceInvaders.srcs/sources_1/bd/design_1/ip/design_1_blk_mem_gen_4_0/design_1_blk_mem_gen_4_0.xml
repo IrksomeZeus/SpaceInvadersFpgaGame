@@ -3456,7 +3456,7 @@
 			<spirit:name>Coe_File</spirit:name>
 			<spirit:value spirit:resolve="user"
 					spirit:id="PARAM_VALUE.Coe_File"
-					spirit:order="39">..\..\..\..\imports\SpaceInvadersFpgaGame\space.coe</spirit:value>
+					spirit:order="39">../../../../imports/SpaceInvadersFpgaGame/space.coe</spirit:value>
 			<spirit:vendorExtensions>
 				<xilinx:parameterInfo>
 					<xilinx:enablement>

@@ -1,6 +1,38 @@
 Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:29:27 MST 2014
+| Date         : Thu Feb 16 10:21:20 2017
+| Host         : Austin-Thinkpad running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_vgacontroller_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_vgacontroller_0_1 (rose-hulman.edu:user:vgacontroller:1.1) from (Rev. 4) to (Rev. 6)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'design_1_vgacontroller_0_1'. These changes may impact your design.
+
+
+-upgraded port 'backgroundaddr' width 18 differs from original width 4
+-upgraded port 'winaddr' width 16 differs from original width 17
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:29:27 MST 2014
 | Date         : Thu Feb 16 01:32:04 2017
 | Host         : wisedt-w530g2 running 64-bit major release  (build 9200)
 | Command      : upgrade_ip
